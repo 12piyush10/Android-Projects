@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="xyz.jonywalker.www.zimmberapp.HandymanService">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#201f1f"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+
+            android:textColor="#fff"
+            android:id="@+id/servicename"
+            android:layout_marginStart="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/leftarrow" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/leftarrow"
+            android:background="@drawable/left_arrow"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+
+
+        <TabHost
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tabHost"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#201f1f"
+                    ></TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+
+                            <LinearLayout
+                                android:id="@+id/tab1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:weightSum="1">
+                         <ScrollView
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent">
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent">
+                               <WebView
+                                   android:layout_width="388dp"
+                                   android:layout_height="161dp"
+                                   android:background="@drawable/first"
+
+                                   android:id="@+id/webview" >
+
+                               </WebView>
+
+                               <TextView
+                                   android:layout_width="match_parent"
+                                   android:layout_height="180dp"
+                                   android:text="Zimmber is focussed on services such as ac servicing, plumbing, electrical repair services, home spa, pest control services, carpentry services, laundry, driver on demand and painting services in cities Mumbai, Pune, Delhi and Gurgaon.Zimmber was founded in October 2014 by Anubhab Goel, Amit Kumar, and Gaurav Shrivastava.
+It had raised $400K (around Rs 2.5 crore) from Bengaluru-based InMobi’s co-founders and has raised $2 million in its Pre-Series A round of funding from four of the top-notch VC firms, including IDG Ventures India; Omidyar Networks."
+                                   android:textColor="#6d5e5e"
+                                   android:textSize="14dp"
+                                   android:paddingLeft="10dp"
+                                   android:paddingRight="10dp"
+                                   android:paddingTop="10dp"
+                                   android:id="@+id/content"
+                                   android:layout_below="@+id/webview"
+                                   android:layout_alignParentStart="true" />
+                               <ImageButton
+                                   android:layout_width="80dp"
+                                   android:layout_height="80dp"
+                                   android:layout_marginTop="360dp"
+                                   android:id="@+id/imagebtn"
+
+                                   android:background="@drawable/img"
+                                   android:layout_marginLeft="20dp"/>
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Nikita Sharma"
+                                   android:layout_marginTop="20dp"
+                                   android:layout_marginLeft="20dp"
+                                   android:id="@+id/reviewername"
+                                   android:layout_below="@+id/content"
+                                   android:layout_toEndOf="@+id/imagebtn" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Jaipur"
+                                   android:layout_marginTop="35dp"
+                                   android:id="@+id/revieweraddress"
+                                   android:layout_alignTop="@+id/reviewername"
+                                   android:layout_alignStart="@+id/reviewername" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="House Wife"
+                                   android:layout_marginTop="20dp"
+                                   android:layout_marginLeft="20dp"
+                                   android:id="@+id/job"
+                                   android:layout_alignTop="@+id/imagebtn"
+                                   android:layout_toEndOf="@+id/imagebtn" />
+
+                               <RatingBar
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginTop="360dp"
+                                   android:layout_marginLeft="280dp"
+                                   style = "?android:attr/ratingBarStyleSmall"
+                                   android:numStars = "5"
+                                   android:rating   = "5"
+
+                                   android:layout_width="wrap_content" />
+
+                           </RelativeLayout>
+
+                         </ScrollView>
+                            </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="490dp"
+                            android:layout_below="@+id/relativeLayout"
+                            android:layout_alignParentStart="true"
+                            android:id="@+id/relativeLayout2">
+
+                            <ListView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/listView"
+                                android:layout_alignParentTop="true" />
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="tab 3"/>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Booking"
+        android:id="@+id/booking"
+        android:background="#1bbc1b"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

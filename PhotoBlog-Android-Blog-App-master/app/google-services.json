@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "783465599386",
+    "firebase_url": "https://photoblog-1ba1b.firebaseio.com",
+    "project_id": "photoblog-1ba1b",
+    "storage_bucket": "photoblog-1ba1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783465599386:android:f2197643bf0111e7",
+        "android_client_info": {
+          "package_name": "in.tvac.akshayejh.photoblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783465599386-4jhlqfm8t386gp53uun27g4s3mmhcr8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjkpEv_SmwAndxNwb0nde5JoguLaZV3iY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

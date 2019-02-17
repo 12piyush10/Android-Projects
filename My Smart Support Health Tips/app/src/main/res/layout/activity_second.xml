@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sample.youtuber.health.SecondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="11dp"
+        android:text="10 TIPS TO REDUCE BELLY FATFOR YOUTUBERS QUIKLY ARE FOLLOWING
+Cow is like a mother for us as it gives us milk two times a day. It cares us and nourishes us through its healthy and nutritious milk. It is found in almost every regions of the world. Almost everyone keeps cow at home to get fresh and healthy milk daily. It is very important and useful domestic animal. Cow is a pet animal whom every product (like milk, ghee, dahi, co-dung and Gau-mutra) is considered as sacred and useful. Co-dung is very useful for the plants, human beings and other purposes. It is considered as sacred and used during many pooja and katha in Hindu religion. She is generally used of grazing the green grass filed instead of eating at one place. Gau mutra is very useful for getting rid of many diseases.
+
+She eats green grasses, grains, foods, hay, fodder and other things. She chews her food well in the mouth and then swallows. She has one pair of big horn as a defence organ while saving her child or own. Sometime she attacks on the people by making her horns parallel to the ground. She gives birth to a nice calf after nourishing him for 12 months in her womb. She gives birth to a strong ox or fertile female cow who again starts giving milk after few years. Hindu people use ox for ploughing the fields, drawing carts and pulling heavy loads in many households. Ox is considered as the real wealth for the farmers as they help in field works.
+
+We always respect cow and be very kind to her. Cow murder is considered as very big sin in the Hindu religion. In many countries cow slaughtering has been banned. Indian people worship the cow and use its products at many holy occasions. Its cow-dung is used as a very good fertilizer in the fields to enhance the fertility level for better growth of seasonal crops. After death, the cow skin is used to make leather things like shoes, bags, purse, etc and bones to make comb, buttons, knife handles, etc.People who are trying to reduce their weigh by such videosare fool please dont watch my video This world is very small love everyone love is precious  "
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

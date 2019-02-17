@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "59516365279",
+    "firebase_url": "https://wallapp-b6517.firebaseio.com",
+    "project_id": "wallapp-b6517",
+    "storage_bucket": "wallapp-b6517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59516365279:android:12be5bbcbc962eb4",
+        "android_client_info": {
+          "package_name": "com.piyush_pooja.wallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59516365279-2mcua86c2cm37avujjc24bp7odi0gt8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.piyush_pooja.wallpaper",
+            "certificate_hash": "4316df3676023f73cb5418be0ef022f8ea17e645"
+          }
+        },
+        {
+          "client_id": "59516365279-psfq6buuha3k1t4fkqvbslg58f61shil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJIVJ_uGu0yKsIgYUykUV7dUcK2giR9FM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59516365279-psfq6buuha3k1t4fkqvbslg58f61shil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

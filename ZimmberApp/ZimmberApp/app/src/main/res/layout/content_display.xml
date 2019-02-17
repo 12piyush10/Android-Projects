@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="xyz.jonywalker.www.zimmberapp.Display"
+    tools:showIn="@layout/app_bar_display">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentStart="true">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/pager"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:layout_alignParentStart="true">
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/imageView"
+                  android:background="@drawable/cleaninghome" />
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/imageView2"
+                  android:background="@drawable/why_salon" />
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/imageView3"
+                  android:background="@drawable/sofaclean" />
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/imageView4"
+                  android:background="@drawable/acimg" />
+          </android.support.v4.view.ViewPager>
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_below="@+id/pager"
+              android:layout_alignParentStart="true">
+
+              <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+
+                  android:layout_height="wrap_content">
+                  <Button
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/toolsa"
+                      android:id="@+id/handyman"
+
+                      android:text="Carpentry Service"/>
+                  <Button
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/cleanertools"
+                      android:id="@+id/cleaning"
+
+                      android:text="Advanced Cleaning"/>
+                  <Button
+
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/hairdryer"
+                      android:id="@+id/salon"
+                      android:text="Salon              Service "/>
+              </LinearLayout>
+
+              <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+                  <Button
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/plumbing"
+                      android:id="@+id/plumbing"
+                      android:text="plunbing Service"/>
+                  <Button
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/fridge"
+                      android:id="@+id/fridge"
+                      android:text="Refrigerator Repair"/>
+                  <Button
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/washingmachine"
+                      android:id="@+id/washingmachine"
+                      android:text="Washing Repair"/>
+              </LinearLayout>
+
+              <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                 >
+                  <Button
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/electrical"
+                      android:id="@+id/electrical"
+                      android:text="Electrical Service"/>
+                  <Button
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/airconditioner"
+                      android:id="@+id/Airconditioner"
+                      android:text="AC                   Repair"/>
+                  <Button
+                      android:layout_width="155dp"
+                      android:layout_height="130dp"
+                      android:layout_weight="1"
+                      android:drawableTop="@drawable/painting"
+                      android:id="@+id/painting"
+                      android:text="Painting Service"/>
+              </LinearLayout>
+          </LinearLayout>
+      </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

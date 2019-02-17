@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#face91"
+    tools:context="xyz.jonywalker.www.zimmberapp.Booking">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#201f1f"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+
+            android:textColor="#fff"
+            android:id="@+id/servicename"
+            android:layout_marginStart="55dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/leftarrow" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/leftarrowbtn"
+            android:background="@drawable/left_arrow"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/bookingimg"
+                android:id="@+id/relativeLayout10">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayout"
+                android:layout_below="@+id/relativeLayout10"
+                android:layout_margin="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Address *"
+                    android:textStyle="italic"
+                    android:textSize="16dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#4c0d9e"
+                    android:id="@+id/textView2" />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fa3434"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/relativeLayout4">
+
+
+
+                </RelativeLayout>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Select Address"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="italic"
+                    android:textSize="14dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#face91"
+                    android:textColor="#e60c6b"
+                    android:id="@+id/addnew" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/relativeLayout2"
+                    android:layout_marginTop="55dp"
+                    android:id="@+id/relativeLayout11">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select Date *"
+                        android:textStyle="italic"
+                        android:textSize="16dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#4c0d9e"
+                        android:id="@+id/textView3" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#fa3434"
+                        android:layout_marginTop="40dp"
+                        android:id="@+id/relativeLayout5">
+
+
+                        <EditText
+                            android:layout_width="250dp"
+                            android:layout_height="44dp"
+
+
+                            android:ems="10"
+                            android:hint="yyyy/mm/dd"
+                            android:background="#face91"
+                            android:layout_margin="2dp"
+                            android:layout_marginTop="40dp"
+                            android:id="@+id/enterdate" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="230dp"
+                    android:layout_alignParentStart="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile Number"
+                        android:textStyle="italic"
+                        android:textSize="16dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#4c0d9e"
+                        android:id="@+id/textView4" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#fa3434"
+                        android:layout_marginTop="40dp"
+                        android:id="@+id/relativeLayout6">
+
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="47dp"
+                            android:text=" "
+
+                            android:hint="mobile no"
+                            android:background="#face91"
+                            android:layout_margin="2dp"
+                            android:layout_marginTop="40dp"
+                            android:id="@+id/mobileno" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relativeLayout6"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/relativeLayout9">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Issues"
+                            android:textStyle="italic"
+                            android:textSize="16dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#4c0d9e"
+                            android:id="@+id/textView5" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#fa3434"
+                            android:layout_marginTop="40dp"
+                            android:id="@+id/relativeLayout8">
+
+
+                            <EditText
+                                android:layout_width="250dp"
+                                android:layout_height="100dp"
+                                android:text=" "
+                                android:background="#face91"
+                                android:layout_margin="2dp"
+                                android:layout_marginTop="40dp"
+                                android:id="@+id/issues" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/relativeLayout11"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do you have a promo code ?"
+                        android:textStyle="italic"
+                        android:textSize="16dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#4c0d9e"
+                        android:id="@+id/textView6" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#fa3434"
+                        android:layout_marginTop="40dp"
+                        android:id="@+id/relativeLayout7">
+
+
+                        <EditText
+                            android:layout_width="250dp"
+                            android:layout_height="44dp"
+                            android:text=" "
+                            android:hint="Promo code"
+                            android:background="#face91"
+                            android:layout_margin="2dp"
+                            android:layout_marginTop="40dp"
+                            android:id="@+id/enterpromo" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="book now"
+                android:id="@+id/reg"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:background="#201f1f"
+                android:layout_marginTop="650dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

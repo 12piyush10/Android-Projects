@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_image"
+            android:src="@mipmap/add_btn"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_title"
+            android:padding="15dp"
+            android:text="Title is here"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_desc"
+            android:text="Post Desc is here"
+            android:paddingLeft="15dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

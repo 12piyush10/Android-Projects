@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "425365279668",
+    "firebase_url": "https://munit-ed515.firebaseio.com",
+    "project_id": "munit-ed515",
+    "storage_bucket": "munit-ed515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425365279668:android:6ca53414b622b350",
+        "android_client_info": {
+          "package_name": "com.piyush_pooja.munit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425365279668-j6dtc5v3lr6d4jipg4hch4ks5c9rcqn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

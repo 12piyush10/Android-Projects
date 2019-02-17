@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "513674664671",
+    "firebase_url": "https://chatarena-94925.firebaseio.com",
+    "project_id": "chatarena-94925",
+    "storage_bucket": "chatarena-94925.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513674664671:android:cea2109f6f3b54b3",
+        "android_client_info": {
+          "package_name": "com.piyush_pooja.chatarena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513674664671-n341npmstcjbb012oo129gdt3cjirgkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.piyush_pooja.chatarena",
+            "certificate_hash": "4316df3676023f73cb5418be0ef022f8ea17e645"
+          }
+        },
+        {
+          "client_id": "513674664671-s5c3rleqpvbtir15f40tb8plea6heilp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPg85XVT547nhz8XRFwI-PuXDZliXCeAg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513674664671-s5c3rleqpvbtir15f40tb8plea6heilp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="xyz.jonywalker.www.zimmberapp.Wallet">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#201f1f"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Wallet"
+            android:textSize="18dp"
+
+            android:textColor="#fff"
+            android:id="@+id/servicename"
+            android:layout_marginStart="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/leftarrow" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/leftarrow"
+            android:background="@drawable/left_arrow"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#3399ff"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#3399ff"
+                android:textColor="#fff"
+                android:text="Balance"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:elevation="1dp"
+                android:paddingBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:text="Total"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="viewEnd"
+                android:layout_gravity="end"
+                />
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs"
+                    android:id="@+id/payrupees"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="-25dp"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/user_wallet"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#62e902"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Pay Bills"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:background="#62e902"
+                android:elevation="1dp"
+                android:paddingBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:id="@+id/bal"
+                android:text="Paid"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="viewEnd"
+                android:layout_gravity="end"
+                />
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs"
+                    android:id="@+id/addrupees"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="-25dp"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/add_wallet"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#63d492"
+           >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#63d492"
+                android:textColor="#fff"
+                android:text="Add Fund"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:elevation="1dp"
+                android:paddingBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:text="Recieve"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:textAlignment="viewEnd"
+                android:layout_gravity="end"
+                />
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs"
+                    android:id="@+id/rupees"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="-25dp"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/addfund_wallet"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+
+
+                    />
+
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

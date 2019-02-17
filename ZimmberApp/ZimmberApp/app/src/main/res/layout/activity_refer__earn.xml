@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4fe7dd"
+    tools:context="xyz.jonywalker.www.zimmberapp.Refer_Earn">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#201f1f"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refer_Earn"
+            android:textSize="18dp"
+
+            android:textColor="#fff"
+            android:id="@+id/servicename"
+            android:layout_marginStart="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/leftarrow" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/leftarrow"
+            android:background="@drawable/left_arrow"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/relativeLayout3"
+    android:layout_alignParentStart="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/imageView"
+        android:src="@drawable/unnamed"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Refer Friends &amp; Earn"
+        android:textSize="32sp"
+        android:layout_marginLeft="23sp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get rs 500 when your friend install the  "
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="app. your friend also gets 500rs"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20sp"
+        android:text="6925ue"
+        android:textStyle="bold"
+        android:textSize="33sp"
+        android:id="@+id/refercode"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="#201f1f"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="invite friends"
+        android:id="@+id/share"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+</RelativeLayout>

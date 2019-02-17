@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1073227660252",
+    "firebase_url": "https://bloggerapp-bc823.firebaseio.com",
+    "project_id": "bloggerapp-bc823",
+    "storage_bucket": "bloggerapp-bc823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073227660252:android:621ddb53571998f7",
+        "android_client_info": {
+          "package_name": "com.piyush_pooja.bloggerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073227660252-8fdsgsu9ddg6cclh9esn9na8b9futsm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5WLkmr-8KyxEYfsCcTMErrm8Z7but1AY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073227660252-8fdsgsu9ddg6cclh9esn9na8b9futsm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<resources>
+  <string name="app_name">Stock Hawk</string>
+
+  <string name="action_example">Example action</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="action_change_units">Change Units</string>
+  <string name="symbol_search">Symbol Search</string>
+  <string name="content_test">Search for a Stock Symbol</string>
+  <string name="input_hint" translatable="false">FB</string>
+  <string name="input_prefill"></string>
+  <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+  <string name="savedalready">This stock is already saved!</string>
+  <string name="noneselected">To add a Stock Press the + button</string>
+  <string name="offlineapp">No connection</string>
+  <string name="input">Invalid input!</string>
+  <string name="addstock">Add a Stock</string>
+  <string name="load">Loading</string>
+  <string name="error">Download Error</string>
+  <string name="failedloading">Please heck your internet connection and try again</string>
+  <string name="widTitle" translatable="false">Stock Hawk Ticker</string>
+  <string name="cont_des">Add New Stocks Button</string>
+  <string name="test" translatable="false">sdfsfsf</string>
+  <string name="fab">fab</string>
+  <string name="toast">This stock is already saved</string>
+</resources>
